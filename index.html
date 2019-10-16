@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8" />
+	<title>Financial Calculator</title>
+	<link rel="stylesheet" href="css/cssVer5.css">
+</head>
+
+<body>
+	<div id="rent_buy_main_wrapper">
+		<div id="rent_buy_wrapper_subb">
+			<div id="rent_buy_main_head">
+				<h1>Buying vs renting.</h1>
+				<h1>Which one is better for you?</h1>
+				<p>It’s a complicated question, but we can help make it easier to decide.</p>
+				<p>Our <b>Financial Calculator</b> compares the financial benefits of renting vs
+					buying. And our <b>Lifestyle Gauge </b>assesses how you feel about renting or buying
+					- are you a renter at heart, or do you really want to own?</p>
+			</div><!-- rent_buy_main_head -->
+			<div id="rent_buy_two_buttons_main">
+				<div id="rent_buy_main_1">
+					<div id="rent_buy_start_here_1" class="inlineBlock head2Buttons">
+						<h2>Start here</h2>
+					</div><!-- rent_buy_start_here_1 -->
+					<div id="rent_buy_start_here_2" class="inlineBlock head2Buttons">
+						<h6 class="inlineBlock">powered by</h6>
+						<div id="rent_buy_start_here_2_logo" class="inlineBlock">
+							<img src="">
+						</div>
+					</div><!-- rent_buy_start_here_2 -->
+				</div><!-- rent_buy_main_1 -->
+				<div id="rent_buy_main_2" class="">
+					<div id="rent_buy_button_1" class="inlineBlock twoButtons">
+						<h4>Lifestyle Gauge</h4>
+						<p>Find out if renting suits you better financially</p>
+						<div id="rent_buy_button_1_rotate_1" class="rotateClass">
+						</div>
+					</div>
+					<div id="rent_buy_button_2" class="inlineBlock twoButtons">
+						<h4>Financial Calculator</h4>
+						<p>Find out if renting suits your lifestyle better</p>
+						<div id="rent_buy_button_2_rotate_2" class="rotateClass">
+						</div>
+					</div>
+				</div><!-- rent_buy_main_2 -->
+			</div><!-- rent_buy_two_buttons_main -->
+			<div id="rent_buy_button_2_option_input_main" class="mainDivClass">
+				<div id="rent_buy_button_2_option_left_inputs" class="inlineBlock leftMain">
+					<h2 class="orange1Class mainOrangeH1">Does renting make more sense for you financially?</h2>
+					<h4 id="h4_rent_vs_buy_left_0ption_2">First, we need some basic information about the kind of place
+						you would consider buying.</h4>
+					<div id="rent_buy_state_select">
+						<h4> Select your state</h4>
+						<select id="rent_buy_state_input">
+							<option value="ACT">ACT</option>
+							<option value="NSW">NSW</option>
+							<option value="NT">NT</option>
+							<option value="QlD">QlD</option>
+							<option value="SA">SA</option>
+							<option value="TAS">TAS</option>
+							<option value="VIC">VIC</option>
+							<option value="WA" selected>WA</option>
+						</select>
+					</div>
+					<div id="rent_buy_main_button_2_slider_1" class="allMainDivsLeftSliders">
+						<h4>House price</h4>
+						<p class="allPLeftSliders">What’s the average price of a house like the one you want, in the
+							suburb you want to live in?</p>
+						<div id="rent_buy_input_output_1">
+							<input id="rent_buy_button_2_slider_input_1" name="slide1" class="allSliders" type="range"
+								min="150000" max="3500000" value="600000" step="1000">
+							<output for="slide1"></output>
+						</div>
+					</div>
+					<div id="rent_buy_main_button_2_slider_2" class="allMainDivsLeftSliders">
+						<h4>Deposit</h4>
+						<p class="allPLeftSliders">What amount can you put down as a deposit?</p>
+						<div id="rent_buy_input_output_2">
+							<input id="rent_buy_button_2_slider_input_2" name="slide2" class="allSliders" type="range"
+								min="5000" max="600000" value="60000" step="1000">
+							<output for="slide2"></output>
+						</div>
+					</div>
+					<div id="rent_buy_main_button_2_slider_3" class="allMainDivsLeftSliders">
+						<h4>Interest rate</h4>
+						<p class="allPLeftSliders">Adjust the interest rate if you know what it is. (We’ve included a
+							standard variable rate here).</p>
+						<div id="rent_buy_input_output_3">
+							<input id="rent_buy_button_2_slider_input_3" name="slide3" class="allSliders" type="range"
+								min="2" max="12" value="3.82" step="0.01">
+							<output for="slide3"></output>
+						</div>
+					</div>
+					<div id="rent_buy_main_button_2_slider_4" class="allMainDivsLeftSliders">
+						<h4>How long do you plan on staying?</h4>
+						<p class="allPLeftSliders">Buying doesn't make sense over a short period of time because of the
+							upfront costs, whereas renting can be viable for both a short or longer term.</p>
+						<div id="rent_buy_input_output_4">
+							<input id="rent_buy_button_2_slider_input_4" name="slide4" class="allSliders" type="range"
+								min="1" max="25" value="7">
+							<output for="slide4"></output>
+						</div>
+					</div>
+				</div>
+				<div id="rent_buy_button_2_option_right_inputs_main" class="inlineBlock">
+					<div id="rent_buy_button_2_option_right_inputs_subb_1" class="allRightDivs">
+						<h4 id="renting_advice">Renting is financially better for you if you can find a similar home for
+						</h4>
+						<h2 class="orange1Class"><span id="rent_value">GHC 444</span></h2>
+						<h6 id="renting_advice_h6">per week or less</h6>
+						<h6>Typically your monthly mortgage</h6>
+						<h6>payments would be</h6>
+						<h2 class="orange1Class"><span id="typical_mortg_value">GHC 444</span></h2>
+						<div id="rent_buy_button_2_option_right_inputs_button" class="allOrangeButtonsRight">
+							<p class="allOrangeButtonsRightP">Let’s find you a deal</p>
+						</div>
+						<div id="rent_buy_button_2_option_right_inputs_logo_main">
+							<p class="inlineBlock">powered by</p>
+							<div id="rent_buy_button_2_option_right_inputs_logo_img" class="inlineBlock">
+								<img src="">
+							</div>
+						</div>
+					</div>
+					<div id="rent_buy_button_2_option_right_inputs_subb_2">
+						<h5>Find out if renting suits your lifestyle better?</h5>
+					</div>
+				</div>
+			</div>
+			<div id="rent_buy_button_1_option_input_main">
+				<div id="rent_buy_button_1_option_left_inputs" class="inlineBlock leftMain">
+					<h2 class="orange1Class mainOrangeH1">Does renting suit your lifestyle better? </h2>
+					<div id="rent_buy_main_button_1_slider_1">
+						<h4>How important is location to you?</h4>
+						<p class="allPPointSliderMargin">For example are you determined to live within walking distance
+							of work or are you happy with a long commute?</p>
+						<div id="rent_buy_range_point_1" class="mainRangePoints">
+							<div id="gray_line_1" class="allGrayLineRangeSpots">
+							</div>
+							<div id="rent_buy_range_point_1_spot_1"
+								class="spotsClass pointClass inlineBlock locationSpots">
+							</div>
+							<div id="rent_buy_range_point_1_spot_2"
+								class="spotsClass pointClass inlineBlock locationSpots">
+							</div>
+							<div id="rent_buy_range_point_1_spot_3"
+								class="spotsClass pointClass inlineBlock locationSpots">
+							</div>
+							<div id="rent_buy_range_point_1_spot_4"
+								class="spotsClass pointClass inlineBlock locationSpots">
+							</div>
+							<div id="rent_buy_range_point_1_spot_5"
+								class="spotsClass pointClass inlineBlock locationSpots">
+							</div>
+							<div id="rent_buy_range_point_1_spot_6"
+								class="spotsClass pointClass inlineBlock locationSpots">
+							</div>
+							<div id="rent_buy_range_point_1_spot_7" class="spotsClass  inlineBlock locationSpots">
+							</div>
+						</div>
+						<div id="rent_buy_point_expl_1" class="allPointExplMain">
+							<p class="inlineBlock allLeftPPointClass">I need to live close to work / the city</p>
+							<p class="inlineBlock allRightPPointClass">I’m open minded about location</p>
+						</div>
+					</div>
+					<div id="rent_buy_main_button_1_slider_2">
+						<h4>How important is owning your home to you? </h4>
+						<p class="allPPointSliderMargin">Are you comfortable with renting, or is owning a home now
+							extremely important to you?</p>
+						<div id="rent_buy_range_point_2" class="mainRangePoints">
+							<div id="gray_line_2" class="allGrayLineRangeSpots">
+							</div>
+							<div id="rent_buy_range_point_2_spot_1"
+								class="spotsClass pointClass inlineBlock owningSpots">
+							</div>
+							<div id="rent_buy_range_point_2_spot_2"
+								class="spotsClass pointClass inlineBlock owningSpots">
+							</div>
+							<div id="rent_buy_range_point_2_spot_3"
+								class="spotsClass pointClass inlineBlock owningSpots">
+							</div>
+							<div id="rent_buy_range_point_2_spot_4"
+								class="spotsClass pointClass inlineBlock owningSpots">
+							</div>
+							<div id="rent_buy_range_point_2_spot_5"
+								class="spotsClass pointClass inlineBlock owningSpots">
+							</div>
+							<div id="rent_buy_range_point_2_spot_6"
+								class="spotsClass pointClass inlineBlock owningSpots">
+							</div>
+							<div id="rent_buy_range_point_2_spot_7" class="spotsClass  inlineBlock owningSpots">
+							</div>
+						</div>
+						<div id="rent_buy_point_expl_2" class="allPointExplMain">
+							<p class="inlineBlock allLeftPPointClass">I love renting</p>
+							<p class="inlineBlock allRightPPointClass">I need to own my home now</p>
+						</div>
+					</div>
+					<div id="rent_buy_main_button_1_slider_3">
+						<h4>How important is flexibility to you?</h4>
+						<p class="allPPointSliderMargin">Do you want to be able to move house without too many hassles,
+							or are you okay with being tied to where you live?</p>
+						<div id="rent_buy_range_point_3" class="mainRangePoints">
+							<div id="gray_line_3" class="allGrayLineRangeSpots">
+							</div>
+							<div id="rent_buy_range_point_3_spot_1"
+								class="spotsClass pointClass inlineBlock flexibilitySpots">
+							</div>
+							<div id="rent_buy_range_point_3_spot_2"
+								class="spotsClass pointClass inlineBlock flexibilitySpots">
+							</div>
+							<div id="rent_buy_range_point_3_spot_3"
+								class="spotsClass pointClass inlineBlock flexibilitySpots">
+							</div>
+							<div id="rent_buy_range_point_3_spot_4"
+								class="spotsClass pointClass inlineBlock flexibilitySpots">
+							</div>
+							<div id="rent_buy_range_point_3_spot_5"
+								class="spotsClass pointClass inlineBlock flexibilitySpots">
+							</div>
+							<div id="rent_buy_range_point_3_spot_6"
+								class="spotsClass pointClass inlineBlock flexibilitySpots">
+							</div>
+							<div id="rent_buy_range_point_3_spot_7" class="spotsClass  inlineBlock flexibilitySpots">
+							</div>
+						</div>
+						<div id="rent_buy_point_expl_3" class="allPointExplMain">
+							<p class="inlineBlock allLeftPPointClass">I want to be able to move easily if needed</p>
+							<p class="inlineBlock allRightPPointClass">I’m fine with staying in a property long term</p>
+						</div>
+					</div>
+					<div id="rent_buy_main_button_1_slider_4">
+						<h4>How committed are you?</h4>
+						<p class="allPPointSliderMargin">Here’s the big one – Are you truly ready to commit to a long
+							term mortgage and your own house?</p>
+						<div id="rent_buy_range_point_4" class="mainRangePoints">
+							<div id="gray_line_4" class="allGrayLineRangeSpots">
+							</div>
+							<div id="rent_buy_range_point_4_spot_1"
+								class="spotsClass pointClass inlineBlock commitedSpots">
+							</div>
+							<div id="rent_buy_range_point_4_spot_2"
+								class="spotsClass pointClass inlineBlock commitedSpots">
+							</div>
+							<div id="rent_buy_range_point_4_spot_3"
+								class="spotsClass pointClass inlineBlock commitedSpots">
+							</div>
+							<div id="rent_buy_range_point_4_spot_4"
+								class="spotsClass pointClass inlineBlock commitedSpots">
+							</div>
+							<div id="rent_buy_range_point_4_spot_5"
+								class="spotsClass pointClass inlineBlock commitedSpots">
+							</div>
+							<div id="rent_buy_range_point_4_spot_6"
+								class="spotsClass pointClass inlineBlock commitedSpots">
+							</div>
+							<div id="rent_buy_range_point_4_spot_7" class="spotsClass  inlineBlock commitedSpots">
+							</div>
+						</div>
+						<div id="rent_buy_point_expl_4" class="allPointExplMain">
+							<p class="inlineBlock allLeftPPointClass1">Would rather think about it in a year or so</p>
+							<p class="inlineBlock allRightPPointClass1">I want to buy a house now, and I’m ready to
+								commit!</p>
+						</div>
+					</div>
+				</div>
+				<div id="rent_buy_button_1_option_right_inputs_main_1_with_a_link_1"
+					class="inlineBlock vertBaselineRight">
+					<div id="rent_buy_button_1_option_right_inputs_main_1" class="allRightDivs">
+						<h3>Looks like you're set on owning your home.</h3>
+						<div id="rent_buy_button_1_option_right_inputs_button_1" class="allOrangeButtonsRight">
+							<p class="allOrangeButtonsRightP">Find a mortgage deal</p>
+						</div>
+						<div id="rent_buy_button_1_option_right_inputs_logo_main_1">
+							<p class="inlineBlock">powered by</p>
+							<div id="rent_buy_button_1_option_right_inputs_logo_img_1" class="inlineBlock">
+								<img src="">
+							</div>
+						</div>
+					</div>
+					<div id="rent_buy_button_1_right_link_a_1" class="widthH5Right">
+						<h5>Find out if renting suits your lifestyle better?</h5>
+					</div>
+				</div>
+				<div id="rent_buy_button_1_option_right_inputs_main_1_with_a_link_2"
+					class="inlineBlock vertBaselineRight">
+					<div id="rent_buy_button_1_option_right_inputs_main_2" class="allRightDivs">
+						<h3>Renting, buying - it’s all the same to you.</h3>
+						<div id="rent_buy_button_1_option_right_inputs_button_2" class="allOrangeButtonsRight">
+							<p class="allOrangeButtonsRightP">Which is financially better?</p>
+						</div>
+						<div id="rent_buy_button_1_option_right_inputs_logo_main_2">
+							<p class="inlineBlock">powered by</p>
+							<div id="rent_buy_button_1_option_right_inputs_logo_img_2" class="inlineBlock">
+								<img src="">
+							</div>
+						</div>
+					</div>
+					<div id="rent_buy_button_1_right_link_a_2" class="widthH5Right">
+						<h5>Find out if renting suits your lifestyle better?</h5>
+					</div>
+				</div>
+				<div id="rent_buy_button_1_option_right_inputs_main_1_with_a_link_3"
+					class="inlineBlock vertBaselineRight">
+					<div id="rent_buy_button_1_option_right_inputs_main_3" class="allRightDivs">
+						<h3>You’re a renter at heart!</h3>
+						<div id="rent_buy_button_1_option_right_inputs_button_3" class="allOrangeButtonsRight">
+							<p class="allOrangeButtonsRightP">Let’s get you settled in</p>
+						</div>
+						<div id="rent_buy_button_1_option_right_inputs_logo_main_3">
+							<p class="inlineBlock">powered by</p>
+							<div id="rent_buy_button_1_option_right_inputs_logo_img_3" class="inlineBlock">
+								<img src="">
+							</div>
+						</div>
+					</div>
+					<div id="rent_buy_button_1_right_link_a_3" class="widthH5Right">
+						<h5>Find out if renting suits your lifestyle better?</h5>
+					</div>
+				</div>
+			</div>
+		</div><!-- rent_buy_wrapper_subb -->
+	</div><!-- rent_buy_main_wrapper -->
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="js/tables.js"></script>
+	<script src="js/jsVer5.js"></script>
+
+</body>
+
+</html>
